@@ -1,5 +1,7 @@
 # Hypertriangulation map
 
+[![Docs](https://readthedocs.org/projects/hypertransform/badge/?version=latest)](https://hypertransform.readthedocs.io/en/latest/)
+
 Repository for permanent hosting of the hypertriangulation map script.
 This is part of the [paper](https://arxiv.org/abs/1907.11631) Supplementary material release.
 

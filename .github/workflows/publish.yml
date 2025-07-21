@@ -32,7 +32,7 @@ jobs:
         run: pytest
 
       - name: Build the package
-        run: python -m build
+        run: python -m build .
 
       - name: Publish to PyPI
         if: success()  # Only run if all prior steps succeeded
