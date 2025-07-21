@@ -10,7 +10,7 @@ def hypertriangulate(x, bounds=(0, 1)):
     components of x are in no particular order.
     
     The hypertriangle is the space where the components are sorted into
-    ascenting order, y0 < y1 < ... < yn. 
+    ascenting order, \( y0 < y1 < ... < yn \). 
     
     The (unit) transformation is defined by:
 
@@ -19,8 +19,8 @@ def hypertriangulate(x, bounds=(0, 1)):
 
     Example application. If we are analysing a number num_dim of DWD 
     sources, all with identical priors. Then this function would be
-    called on the array np.array([f_1, f_2, ..., f_num_sources]) with
-    bounds=(f_min, f_max).
+    called on the array `np.array([f_1, f_2, ..., f_num_sources])` with
+    `bounds=(f_min, f_max)`.
 
     Parameters
     ----------
