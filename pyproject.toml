@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hypertransform"
-version = "1.2.0"
+version = "1.2.1"
 description = "A simple package implement hypertriangulation and hypercubification, following the work of Buscicchio et al. (2019)."
 authors = [
     { name = "Riccardo Buscicchio", email = "riccardo.buscicchio@unimib.it" },
@@ -17,14 +17,17 @@ license = "Apache-2.0"
 dependencies = ["numpy>=1.21",]
 
 classifiers = [
-  "Development Status :: 4 - Beta",
+  "Development Status :: 5 - Production/Stable",
   "Intended Audience :: Developers",
-  "Topic :: Software Development :: Build Tools",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.8",
   "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: Apache Software License"
 ]
 
 [project.urls]
