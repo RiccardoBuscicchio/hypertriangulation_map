@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hypertransform"
+version = "1.2.0"
+description = "A simple package implement hypertriangulation and hypercubification, following the work of Buscicchio et al. (2019)."
+authors = [
+    { name = "Riccardo Buscicchio", email = "riccardo.buscicchio@unimib.it" },
+    { name = "Elinore Roebber", email = "eroebber@star.sr.bham.ac.uk"},
+    { name = "Christopher J. Moore", email = "cmoore@star.sr.bham.ac.uk"},
+    { name = "Janna Goldstein", email = "jgoldstein@star.sr.bham.ac.uk"}
+]
+readme = "README.md"
+license = "Apache-2.0"
+dependencies = ["numpy>=1.21",]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+
+[project.urls]
+Documentation = "https://readthedocs.org"
+Homepage = "https://github.com/RiccardoBuscicchio/hypertriangulation_map"
+Repository = "https://github.com/RiccardoBuscicchio/hypertriangulation_map.git"
+Issues = "https://github.com/RiccardoBuscicchio/hypertriangulation_map/issues"
+Changelog = "https://github.com/RiccardoBuscicchio/hypertriangulation_map/blob/master/CHANGELOG.md"
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
