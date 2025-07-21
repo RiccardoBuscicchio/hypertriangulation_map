@@ -37,3 +37,6 @@ Changelog = "https://github.com/RiccardoBuscicchio/hypertriangulation_map/blob/m
 [tool.pytest.ini_options]
 addopts = "-ra"
 testpaths = ["tests"]
+
+[project.optional-dependencies]
+dev = ["pytest", "numpy"]
