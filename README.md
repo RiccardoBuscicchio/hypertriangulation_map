@@ -1,5 +1,7 @@
 # Hypertriangulation map
 
+[![Docs](https://readthedocs.org/projects/hypertransform/badge/?version=latest)](https://hypertransform.readthedocs.io/en/latest/)
+
 Repository for permanent hosting of the hypertriangulation map script.
 This is part of the [paper](https://arxiv.org/abs/1907.11631) Supplementary material release.
 
@@ -8,5 +10,9 @@ Collaborative work of:
 
 Consider citing us: [![DOI](https://zenodo.org/badge/198878665.svg)](https://zenodo.org/badge/latestdoi/198878665)
 
+Package available on conda
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/hypertransform.svg)](https://anaconda.org/conda-forge/hypertransform)
+[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/hypertransform.svg)](https://anaconda.org/conda-forge/hypertransform)
 
-
+and PyPi 
+[![PyPI Version](https://img.shields.io/pypi/v/hypertransform.svg)](https://pypi.org/project/hypertransform/)
